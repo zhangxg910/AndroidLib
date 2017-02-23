@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="DoubleCircleLoadingView">
+        <attr name="main_circle_color" format="color"/>
+        <attr name="assist_circle_color" format="color"/>
+        <attr name="double_circle_loading_invalid_delay_time" format="integer"/>
+    </declare-styleable>
+
+    <declare-styleable name="ShapeLoadingView">
+        <attr name="max_allow_polygon_side_count" format="integer"/>
+        <attr name="max_shape_rotate_degree" format="float"/>
+        <attr name="interpolator_factor" format="float"/>
+        <attr name="shape_color" format="color"/>
+        <attr name="shadow_color" format="color"/>
+        <attr name="shadow_height" format="dimension"/>
+        <attr name="shadow_top_space" format="dimension"/>
+        <attr name="shape_loading_invalid_delay_time" format="integer" />
+    </declare-styleable>
+
+    <declare-styleable name="RotateLoadingView">
+        <attr name="rotate_step" format="float"/>
+        <attr name="rotate_src" format="reference"/>
+        <attr name="rotate_loading_invalid_delay_time" format="integer" />
+    </declare-styleable>
+
+</resources>
